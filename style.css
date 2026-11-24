@@ -4,4 +4,5 @@
 .slot.active strong:before{content:none;}.role-toggle a{min-height:44px;display:flex;align-items:center}.booking-row{min-height:48px}.options label{min-height:48px}summary{min-height:44px}.booking{max-height:85dvh;overflow:auto}.fields input{min-height:44px}.columns>*{min-width:0} @media(max-width:360px){header{flex-wrap:wrap}.role-toggle{order:3;width:100%}.role-toggle a{flex:1;justify-content:center}.slots{gap:4px}.admin-content{padding:12px}.workshop-title{padding:16px}.details{padding:12px}}
 .role-toggle a.active{font-weight:700;text-decoration:none;}.role-toggle a:not(.active){font-weight:400}.role-toggle a:focus-visible{outline-offset:-3px}
 .slot.active strong{font-weight:700;text-decoration:none;}.slot.active strong:before,.role-toggle a.active:before{content:none}
-.demo-workshop{margin-top:48px}.demo-title{font-family:'DM Serif Display',serif;font-size:32px;line-height:36px;font-weight:400}.demo-workshop .primary:disabled{opacity:1;background:#e1e8dc;color:#203e35;cursor:default}@media(max-width:768px){.demo-workshop{margin-top:24px}}
+
+.demo-workshop{width:100%;margin:0;padding-top:16px}.demo-title{font:400 32px/36px 'DM Serif Display',Georgia,serif}.demo-workshop .primary:disabled{opacity:1;cursor:default;background:var(--green);color:var(--paper);border-color:var(--green)}@media(max-width:600px){.demo-workshop{padding-top:16px}}
