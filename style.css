@@ -6,3 +6,4 @@
 .slot.active strong{font-weight:700;text-decoration:none;}.slot.active strong:before,.role-toggle a.active:before{content:none}
 
 .demo-workshop{width:100%;margin:0;padding-top:16px}.demo-title{font:400 32px/36px 'DM Serif Display',Georgia,serif}.demo-workshop .primary:disabled{opacity:1;cursor:default;background:var(--green);color:var(--paper);border-color:var(--green)}@media(max-width:600px){.demo-workshop{padding-top:16px}}
+.demo-workshop{border-top:1px solid var(--stroke);padding-top:36px}@media(max-width:600px){.demo-workshop{padding-top:24px}}
